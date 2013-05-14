@@ -186,6 +186,8 @@ Result
 
 ## Image:
 
+**!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO DO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+
 Syntax is similar to links above.
 
 `![alt text](http://www.w3.org/html/logo/badge/html5-badge-h-solo.png "title")`
@@ -195,8 +197,6 @@ Syntax is similar to links above.
 ## Code
 
 You can display code by wrapping it in **grave accent** = HTML Entity Code: `&#96;` = ASCII Character: &#96;
-
-
 
 Markdown
 
@@ -209,6 +209,11 @@ HTML
 Result
 
 This is some text with code ... `alert("Hi there");` ... and some text at the end.
+
+## Code blocks
+
+**!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO DO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+
 
 ## Blockquotes
 
