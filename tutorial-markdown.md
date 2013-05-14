@@ -1,4 +1,4 @@
-# Markdown tutorial with HTML code and syntax examples
+# Markdown tutorial with code and syntax examples
 
 [Markdown](http://daringfireball.net/projects/markdown/) helps you to write simple, fast documentation or blog posts.  
 It is not replacing all HTML tags nor HTML itself but it helps to make writing for web so much faster !
