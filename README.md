@@ -1,3 +1,4 @@
 # Markdown syntax tutorial
 
-Basic introduction to Markdown syntax, [read tutorial](x) and enjoy :)
+I wrote for my self a short set of commands and notes on how to use Markdown.  
+Read [tutorial](https://github.com/krsiakdaniel/tutorial-markdown/blob/master/tutorial-markdown.md) and enjoy.
