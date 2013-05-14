@@ -1,3 +1,3 @@
-# Markdown tutorial with code and syntax examples
+# Markdown syntax tutorial
 
 Basic introduction to Markdown syntax, [read tutorial](x) and enjoy :)
