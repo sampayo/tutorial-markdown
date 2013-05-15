@@ -144,9 +144,6 @@ Result
 2. B
 3. C
 
-> And this is blockquote. Fonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.
-
-
 ## Links
 
 Links are super easy too. Bear in mind this syntax `[TEXT OF LINK](ACTUAL HYPERLINK "TITLE IS OPTIONAL")`  
@@ -227,7 +224,7 @@ Markdown
 
 HTML
 
-	<pre><code>Lorem Ipsum</code></pre>
+<pre><code>Lorem Ipsum</code></pre>
 
 Result
 
@@ -247,7 +244,7 @@ HTML
 
 Result
 
-> Lorem ipsum
+> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, modi illum repellat eos quaerat enim velit nesciunt cum pariatur odio quo explicabo magnam vel fugit assumenda debitis atque necessitatibus consequuntur nostrum voluptas error nulla voluptate totam illo aperiam doloremque minus quae nemo eligendi minima architecto soluta sit officiis porro autem.
 
 ## Backslash escapes
 
