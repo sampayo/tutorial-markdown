@@ -11,7 +11,7 @@ It is not replacing all HTML tags nor HTML itself but it helps to make writing f
 4. HTML result as shown in browser
 
 
-## Heading:
+## Heading
 
 Markdown
 
@@ -42,7 +42,7 @@ Result
 
 
 
-## Paragraph:
+## Paragraph
 Markdown
 	
 	Any text on new separate line forms a paragraph.
@@ -65,7 +65,7 @@ When you do want to insert a `<br />` break tag using Markdown, you end a line w
 
 ## Bold text:
 
-You can use: asterisks and underscores `* and _`
+You can use 2 asterisks or 2 underscores `* or _`
 
 Markdown
 
@@ -81,7 +81,7 @@ Result
 
 ## Emphasis:
 
-You can use: asterisks and underscores `* and _`
+You can use 1 asterisk or 1 underscore `* and _`
 
 Markdown
 
@@ -97,7 +97,7 @@ Result
 
 ## Unordered list
 
-You can use: asterisks, pluses, and hyphens (*, +, and -).
+You can use asterisks, pluses, and hyphens (*, +, and -) in order to create a list items.
 
 Markdown
 
@@ -122,7 +122,7 @@ Result
 
 ## Ordered list
 
-You can use: number with `DOT .` at the end + actual text.
+You can use a number with `DOT .` at the end + actual text.
 
 Markdown
 
@@ -146,13 +146,12 @@ Result
 
 ## Links
 
-Links are super easy too. Bear in mind this syntax `[TEXT OF LINK](ACTUAL HYPERLINK "TITLE IS OPTIONAL")`  
-Look at examples below.
+Links are easy. Bear in mind this syntax `[TEXT OF LINK](ACTUAL HYPERLINK "TITLE IS OPTIONAL")`  
 
 Markdown
 
-	[Daring Fireball](http://daringfireball.net/projects/markdown/)
-	[Daring Fireball](http://daringfireball.net/projects/markdown/ "Markdown syntax")
+	[Markdown project](http://daringfireball.net/projects/markdown/)
+	[Markdown link with title](http://daringfireball.net/projects/markdown/ "Markdown syntax !")
 
 HTML
 
@@ -166,8 +165,8 @@ Result
 
 ## Automatic links
 
-Are you feeling lazy or like to be super fast ? Then use `angle brackets < >` to generate automatic links !  
-Your link will be used and turned into a clickable text.
+Are you feeling lazy or like super productive ? Then use `angle brackets < >` to generate automatic links !  
+Link will equal text of link.
 
 Markdown
 
@@ -220,19 +219,21 @@ In order to create code block in Markdown, indent every line of the block by at 
 
 Markdown
 
-		Lorem Ipsum
+		Lorem Ipsum 1
+		Lorem Ipsum 2
+		Lorem Ipsum 3
 
 HTML
 
-<pre><code>Lorem Ipsum</code></pre>
+	<pre><code>Lorem Ipsum 1 Lorem Ipsum 2 Lorem Ipsum 3</code></pre>
 
 Result
 
-	Lorem Ipsum
+	Lorem Ipsum 1 Lorem Ipsum 2 Lorem Ipsum 3
 
 ## Blockquotes
 
-So you have some text you want to quote and put in a block ? No problem.
+Using blockquotes is as simple as creating a list. Just use `greater than sign = right angle bracket ... >`
 
 Markdown
 
