@@ -184,15 +184,22 @@ Result
 
 <http://daringfireball.net/projects/markdown/>
 
-## Image:
+## Image
 
-**!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO DO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+Syntax is similar to links. There is an exclamation mark at the beginning `![alt text](link "title")` and title attribute is optional.
 
-Syntax is similar to links above.
+Markdown
 
-`![alt text](http://www.w3.org/html/logo/badge/html5-badge-h-solo.png "title")`
+	![HTML 5 badge](http://www.w3.org/html/logo/badge/html5-badge-h-solo.png "HTML 5")
 
-![alt text](http://www.w3.org/html/logo/badge/html5-badge-h-solo.png "Link")
+HTML
+
+	<img src="http://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt="HTML 5 badge" title="HTML 5">
+
+Result
+
+![HTML 5 badge](http://www.w3.org/html/logo/badge/html5-badge-h-solo.png "HTML 5")
+
 
 ## Code
 
@@ -200,7 +207,7 @@ You can display code by wrapping it in **grave accent** = HTML Entity Code: `&#9
 
 Markdown
 
-&#96;alert("Hi there");&#96;
+**&#96;alert("Hi there");&#96;**
 
 HTML
 
@@ -212,8 +219,19 @@ This is some text with code ... `alert("Hi there");` ... and some text at the en
 
 ## Code blocks
 
-**!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TO DO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!**
+In order to create code block in Markdown, indent every line of the block by at least 4 spaces or 1 tab. 
 
+Markdown
+
+		Lorem Ipsum
+
+HTML
+
+	<pre><code>Lorem Ipsum</code></pre>
+
+Result
+
+	Lorem Ipsum
 
 ## Blockquotes
 
